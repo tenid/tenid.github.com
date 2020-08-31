@@ -6,6 +6,8 @@ $(document).ready(function() {
   // FitVids init
   $("#main").fitVids();
 
+  
+
   // Sticky sidebar
   var stickySideBar = function() {
     var show =
@@ -133,4 +135,22 @@ $(document).ready(function() {
       $(this).append(anchor);
     }
   });
+
+  (function(d, h, m){
+    var js, fjs = d.getElementsByTagName(h)[0];
+    if (d.getElementById(m)){return;}
+    js = d.createElement(h); js.id = m;
+    js.onload = function(){
+        window.makerWidgetComInit({
+        position: "right",          
+        widget: "cvyshzup7u5dtue7-do4r4reldq9jzgke-s6hm0ymffubdlyfv"                
+    })};
+    js.src = "https://makerwidget.com/js/embed.js";
+    fjs.parentNode.insertBefore(js, fjs)
+}(document, "script", "dhm"))
+
+
+  
 });
+
+
