@@ -1,7 +1,7 @@
 minimal_mistakes_skin: dark
 classes: wide
-locale: ko-KR
-title: 테니드 웹 블로그
+locale: "ko-KR"
+title: "테니드 웹 블로그"
 title_separator: '-'
 subtitle: Version 1.0
 name: 정준영
@@ -14,9 +14,9 @@ logo: null
 masthead_title: 테니드 웹 blog
 words_per_minute: 200
 comments:
-  provider: "disqus" # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "custom"
+  provider: disqus
   disqus:
-    shortname: "tenid" # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
+    shortname: tenid
   discourse:
     server: null
   facebook:
@@ -186,8 +186,9 @@ compress_html:
   ignore:
     envs: development
 defaults:
+   #_posts
   - scope:
-      path: ''
+      path: ''"
       type: posts
     values:
       layout: single
@@ -196,9 +197,12 @@ defaults:
       comments: true
       share: true
       related: true
+
+  #_pages
   - scope:
-      path: _pages
+      path: "_pages"
       type: pages
     values:
       layout: single
       author_profile: true
+
