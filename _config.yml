@@ -6,7 +6,7 @@ title_separator: '-'
 subtitle: Version 1.0
 name: 정준영
 description: 프로그래밍 기초 및 웹 개발 관련
-url: 'https://github.com/tenid/categories/'
+url: 'https://github.com/tenid/'
 baseurl: null
 repository: tenid/tenid.github.io
 teaser: null
@@ -76,7 +76,7 @@ author:
       icon: fas fa-fw fa-envelope-square
     - label: Website
       icon: fas fa-fw fa-link
-      url: 'http://tenid.github.io/categories/'
+      url: 'http://tenid.github.io/'
     - label: Twitter
       icon: fab fa-fw fa-twitter-square
     - label: Facebook
@@ -161,7 +161,7 @@ sass:
 permalink: '/:categories/:title/'
 paginate: 5
 paginate_path: '/page:num/'
-timezone: null
+timezone: 
 plugins:
   - jekyll-admin
   - jekyll-paginate
