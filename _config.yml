@@ -34,9 +34,9 @@ reCaptcha:
   secret: null
 atom_feed:
   path: null
-search: null
-search_full_content: null
-search_provider: null
+search: true
+search_full_content: true
+search_provider: # lunr (default), algolia, google
 algolia:
   application_id: null
   index_name: null
@@ -68,7 +68,7 @@ analytics:
 author:
   name: 테니드
   avatar: /assets/images/profile_image.jpg
-  bio: 웹 코딩에 관심 있는 개발자가 되고 싶습니다. <br> 부족하지만 열심히 공부해보겠습니다.
+  bio: 정보처리기사 및 알고리즘 공부중..
   location: Republic of Korea
   email: suj710101@gmail.com
   links:
