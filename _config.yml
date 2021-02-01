@@ -198,6 +198,7 @@ defaults:
       share: true
       related: true
       show_date: true
+      category: Algorithm
 
   #_pages
   - scope:
